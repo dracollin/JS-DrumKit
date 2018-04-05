@@ -1,0 +1,50 @@
+html {
+  font-size: 8px;
+  background: url(https://images4.alphacoders.com/857/857455.jpg) bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 10px;
+  font-family: Avantgarde, TeX;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.key {
+  border: 2px solid #383737;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 1.0rem;
+  padding: 1rem 1rem;
+  transition: all .10s ease-out;
+  width: 10rem;
+  text-align: center;
+  color: #ffffff;
+  background: rgba(117, 56, 56, 0.4);
+  text-shadow: 0 0 .3rem black;
+}
+
+.playing {
+  transform: scale(0.5, 0.5);
+  border-color: #c0c1c3;
+  box-shadow: 0 0 1rem #000000;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #ff0101;
+}
