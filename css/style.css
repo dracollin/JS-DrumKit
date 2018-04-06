@@ -9,6 +9,14 @@ body,html {
   font-family: Avantgarde, TeX;
 }
 
+footer {
+  bottom:0;
+  width:100%;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
 .keys {
   display: flex;
   flex: 1;
